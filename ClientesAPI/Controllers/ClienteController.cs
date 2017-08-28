@@ -23,6 +23,7 @@ namespace ClientesAPI.Controllers
         {
             var clientes = _clienteRepositorio.Listar();
 
+
             return Request.CreateResponse(HttpStatusCode.OK, clientes);
         }
 
